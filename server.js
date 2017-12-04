@@ -8,7 +8,7 @@ var session = require('express-session');
 var RedisStore = require('connect-redis')(session);
  
 // var options = {
-//      client: '',
+//      client: clientStore,
 // 	host: 'localhost'
 // 	port: '6379',
 // 	pass: ''
